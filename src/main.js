@@ -24,8 +24,8 @@ let stars = []
 function preload() {
   open = loadImage('assets/open.svg')
   close = loadImage('assets/close.svg')
-  soundNight = new Howl({ src: [ 'assets/bgBlack.mp3' ], loop: true, volume: 0.5 })
-  soundDay = new Howl({ src: [ 'assets/bgWhite.mp3' ], loop: true, volume: 0 })
+  soundNight = new Howl({ src: [ 'assets/bgWhite.mp3' ], loop: true, volume: 0.5 })
+  soundDay = new Howl({ src: [ 'assets/bgBlack.mp3' ], loop: true, volume: 0 })
   soundWoosh = new Howl({ src: [ 'assets/whoosh.mp3' ] })
 
   soundNight.play()
